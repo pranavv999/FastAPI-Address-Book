@@ -8,17 +8,17 @@
 
 ###### EndPoints:
 
-**1. GET** <=> \***\*'/'\*\***
+**1. GET** <=> **_'/'_**
 
-**2. GET** <=> \***\*'/address/{address_id}'\*\***
+**2. GET** <=> **_'/address/{address_id}'_**
 
-**3. GET** <=> \***\*'/address?lat={latitude}&lon={lomgitude}&distance_range={distance_in_kilometers}'\*\***
+**3. GET** <=> **_'/address?lat={latitude}&lon={lomgitude}&distance_range={distance_in_kilometers}'_**
 
-**4. POST** <=> \***\*'/create_address'\*\***
+**4. POST** <=> **_'/create_address'_**
 
-**5. PATCH** <=> \***\*'/address/{address_id}'\*\***
+**5. PATCH** <=> **_'/address/{address_id}'_**
 
-**6. DELETE** <=> \***\*'/address/{address_id}'\*\***
+**6. DELETE** <=> **_'/address/{address_id}'_**
 
 ###### [Find Latitude & Longitude of any Location Here](https://www.distancesto.com/coordinates.php)
 
