@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from . import crud, models, schemas
 from .database import SessionLocal, engine
-from .exceptions import AddressNotFoundError, WrongValueError
+from .exceptions import AddressNotFoundError, WrongValueError, MissingAllValues
 from .utils import validate_longitude, validate_latitude
 
 
@@ -75,11 +75,14 @@ def update_address(
     db: Session = Depends(get_db),
     address_id: int = Path(..., title="The ID of the address to get", ge=1),
 ):
-    try:
-        res = crud.update_address(db, address_id, address)
-        return res.all()[0]
-    except AddressNotFoundError as e:
-        raise HTTPException(**e.__dict__)
+    if(any(address.dict().values())):
+        try:
+            res = crud.update_address(db, address_id, address)
+            return res.all()[0]
+        except AddressNotFoundError as e:
+            raise HTTPException(**e.__dict__)
+    else:
+        raise HTTPException(**MissingAllValues().__dict__)
 
 
 @app.delete("/address/{address_id}")
