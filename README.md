@@ -2,8 +2,8 @@
 
     **Versions**
     ```
-    > [Python](https://www.python.org/) 3.10 and above
-    > [FastAPI](https://fastapi.tiangolo.com/) 0.73.0
+    [Python] 3.10 and above
+    [FastAPI](https://fastapi.tiangolo.com/) 0.73.0
     ```
 
 ###### EndPoints:
@@ -31,3 +31,5 @@
     > uvicorn address_book.main:app --reload
 6. Open [FastAPI - Swagger UI](http://127.0.0.1:8000/docs) http://127.0.0.1:8000/docs
 ```
+
+[python]: https://www.python.org/
