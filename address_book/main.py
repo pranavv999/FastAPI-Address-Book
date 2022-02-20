@@ -75,7 +75,7 @@ def update_address(
     db: Session = Depends(get_db),
     address_id: int = Path(..., title="The ID of the address to get", ge=1),
 ):
-    if(any(address.dict().values())):
+    if any(address.dict().values()):
         try:
             res = crud.update_address(db, address_id, address)
             return res.all()[0]
