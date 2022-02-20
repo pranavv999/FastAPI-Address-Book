@@ -3,21 +3,22 @@
 **Versions**
 
 [Python](https://www.python.org/) 3.10 and above
+
 [FastAPI](https://fastapi.tiangolo.com/) 0.73.0
 
 ###### EndPoints:
 
-**1. GET** <=> '/'
+**1. GET** <=> \***\*'/'\*\***
 
-**2. GET** <=> '/address/{address_id}'
+**2. GET** <=> \***\*'/address/{address_id}'\*\***
 
-**3. GET** <=> '/address?lat={latitude}&lon={lomgitude}&distance_range={distance_in_kilometers}'
+**3. GET** <=> \***\*'/address?lat={latitude}&lon={lomgitude}&distance_range={distance_in_kilometers}'\*\***
 
-**4. POST** <=> '/create_address'
+**4. POST** <=> \***\*'/create_address'\*\***
 
-**5. PATCH** <=> '/address/{address_id}'
+**5. PATCH** <=> \***\*'/address/{address_id}'\*\***
 
-**6. DELETE** <=> '/address/{address_id}'
+**6. DELETE** <=> \***\*'/address/{address_id}'\*\***
 
 ###### [Find Latitude & Longitude of any Location Here](https://www.distancesto.com/coordinates.php)
 
