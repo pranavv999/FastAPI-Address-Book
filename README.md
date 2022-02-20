@@ -8,10 +8,15 @@
 ###### EndPoints:
 
 **1. GET** <=> '/'
+
 **2. GET** <=> '/address/{address_id}'
+
 **3. GET** <=> '/address?lat={latitude}&lon={lomgitude}&distance_range={distance_in_kilometers}'
+
 **4. POST** <=> '/create_address'
+
 **5. PATCH** <=> '/address/{address_id}'
+
 **6. DELETE** <=> '/address/{address_id}'
 
 ###### [Find Latitude & Longitude of any Location Here](https://www.distancesto.com/coordinates.php)
