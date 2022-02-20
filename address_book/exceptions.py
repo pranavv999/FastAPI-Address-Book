@@ -12,3 +12,9 @@ class WrongValueError(BaseError):
     def __init__(self):
         self.status_code = 400  #  Bad Request
         self.detail = "Latitude must be a number between -90 and 90, Longitude must be a number between -180 and 180"
+
+
+class MissingAllValues(BaseError):
+    def __init__(self):
+        self.status_code = 400  #  Bad Request
+        self.detail = "Request Body Should Not Be Empty"
