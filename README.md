@@ -1,10 +1,10 @@
 # Address Book Using FastAPI
 
     **Versions**
-    ```
+    
     > [Python](https://www.python.org/) 3.10 and above
     > [FastAPI](https://fastapi.tiangolo.com/) 0.73.0
-    ```
+    
 
 ###### EndPoints:
 
