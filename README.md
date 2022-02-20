@@ -14,9 +14,9 @@
 **5. PATCH** <=> '/address/{address_id}'
 **6. DELETE** <=> '/address/{address_id}'
 
-###### [Find Latitude & Longitude of any Location Here](https://www.distancesto.com/coordinates.php)\*\*
+###### [Find Latitude & Longitude of any Location Here](https://www.distancesto.com/coordinates.php)
 
-###### To run Project
+### To run Project
 
 1. git clone [https://github.com/pranavv999/FastAPI-Address-Book.git](https://github.com/pranavv999/FastAPI-Address-Book.git)
 2. cd FastAPI-Address-Book
