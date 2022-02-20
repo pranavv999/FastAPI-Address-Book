@@ -32,4 +32,4 @@
 6. Open [FastAPI - Swagger UI](http://127.0.0.1:8000/docs) http://127.0.0.1:8000/docs
 ```
 
-[python]: https://www.python.org/
+[python]: <https://www.python.org/>
